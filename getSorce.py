@@ -5,8 +5,6 @@ header={'Referer':'http://www.chsi.com.cn/cet/',
         'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0',
         'Host':'www.chsi.com.cn'}
 url="http://www.chsi.com.cn/cet/query"
-proxies = {"http":"http://111.202.92.115:8541",
-           "https":"https://122.193.14.109:8450"}
 pattern = re.compile(r'\b\d{1,3}\b')
 patternStyle = re.compile(r'英语\w级')
 
